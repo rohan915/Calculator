@@ -1,0 +1,62 @@
+.numbers {
+    display: grid;
+
+    grid-template-columns: repeat(3, 90px);
+    grid-template-rows: repeat(3, 90px);
+
+    justify-content: center;
+    position: relative;
+    top: 300px;
+}
+
+#equal {
+    height: 80px;
+    font-size: 15px;
+    background-color: orange;
+    border: solid black;
+}
+
+#display {
+    height: 90px;
+    width: 270px;
+    position: relative;
+    left: 813px;
+    top: -160px;
+    border: 2px solid black;
+    font-size: 45px;
+}
+
+#clear {
+    height: 80px;
+    background-color: orange;
+    border-style: solid;
+    border-color:black;
+
+}
+
+.opp {
+    display: flex;
+    flex-direction: column;
+}
+
+.w {
+    height: 80px;
+    width: 80px;
+    position: relative;
+    left: 730px;
+    bottom: 130px;
+    border-style: solid;
+    border-color:black;
+    background-color: orange;
+
+}
+
+.num {
+    background-color: orangered;
+    border-style: solid;
+    border-color: black ;
+}
+
+body {
+    background-color: peru;
+}
